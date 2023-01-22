@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="modern-normalize.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="img/main_icon.jpg" type="image/icon type" />
-    <title>Main Page</title>
+    <title>Document</title>
   </head>
   <body>
     <header class="header1">
@@ -144,9 +144,7 @@
               />
             </li>
             <li class="img3">
-              <img width="360" 
-              src="./images/Rectangle 71phone.png" 
-              alt="mobile_app" />
+              <img width="360" src="images/Rectangle 71phone.png" alt="mobile_app" />
             </li>
           </ul>
         </div>
@@ -157,7 +155,7 @@
           <h2 class="title2 tit_sec3">Our Team</h2>
           <ul class="list team_list">
             <li class="mark team_box">
-              <img width="264" src="./images/imgmark.jpg" alt="mark" />
+              <img width="264" src="images/imgmark.jpg" alt="mark" />
               <div class="pic_box">
                 <h3 class="team_memb text_in_box">Mark Guerrero</h3>
                 <p class="memb_work text_in_box">Product Designer</p>
@@ -268,7 +266,7 @@
               </ul>
             </li>
             <li class="daniel team_box">
-              <img width="264" src="./images/imgdaniel.jpg" alt="daniel" />
+              <img width="264" src="images/imgdaniel.jpg" alt="daniel" />
               <div class="pic_box">
                 <h3 class="team_memb text_in_box">Daniel Wilson</h3>
                 <p class="memb_work text_in_box">UI Designer</p>
@@ -308,51 +306,53 @@
         </div>
       </section>
       <section class="sec3">
-        <h2 class="title2 tit_sec3">Customers</h2>
-        <ul class="list-comp list">
-          <li class="comp-item">
-            <a href="" class="comp-link">
-              <svg class="comp-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="comp-item">
-            <a href="" class="comp-link">
-              <svg class="comp-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo2"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="comp-item">
-            <a href="" class="comp-link">
-              <svg class="comp-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo3"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="comp-item">
-            <a href="" class="comp-link">
-              <svg class="comp-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo4"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="comp-item">
-            <a href="" class="comp-link">
-              <svg class="comp-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo5"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="comp-item">
-            <a href="" class="comp-link">
-              <svg class="comp-icon" width="104" height="56">
-                <use href="./images/icons.svg#icon-Logo6"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+        <div class="conteiner">
+          <h2 class="title2 tit_sec3">Customers</h2>
+          <ul class="list-comp list">
+            <li class="comp-item">
+              <a href="" class="comp-link">
+                <svg class="comp-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="comp-item">
+              <a href="" class="comp-link">
+                <svg class="comp-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="comp-item">
+              <a href="" class="comp-link">
+                <svg class="comp-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="comp-item">
+              <a href="" class="comp-link">
+                <svg class="comp-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="comp-item">
+              <a href="" class="comp-link">
+                <svg class="comp-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo5"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="comp-item">
+              <a href="" class="comp-link">
+                <svg class="comp-icon" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo6"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
@@ -400,6 +400,29 @@
             </li>
           </ul>
         </div>
+        <div style="margin-left: 80px;">
+          <h3 class="footer_tit3">Subscribe</h3>
+            <form class="subscribe-footer-form">
+              <input
+                class="subscribe-footer-input"
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Email"
+                                    />
+                <button type="submit" class="subscribe-footer-btn">
+                Subscribe
+                <svg
+                  class="subscribe-footer-media-icon"
+                  width="24px"
+                  height="24px"
+                >
+                  <use href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+            </form>
+        </div>
       </section>
     </footer>
 
@@ -410,25 +433,74 @@
             <use href="./images/icons.svg#icon-close-black"></use>
           </svg>
         </button>
-        <section class="reg_sec">
-          <h3 class="modal_tit">
-            Leave your contacts and we will call you back
-          </h3>
-          <section class="text-input">
-            <form action="/action_page.php">
-              <label class="text_inp" for="name">Name</label>
-              <input type="text" id="name" name="name" /><br /><br />
-              <label class="text_inp" for="tel">Phone</label>
-              <input type="number" id="phone" name="phone" /><br /><br />
-              <label class="text_inp" for="mailto">Email</label>
-              <input type="text" id="email" name="email" /><br /><br />
-              <input type="submit" value="Submit" />
-            </form>
-          </section>
-        </section>
+
+        <p class="modal-form-title">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="modal-form">
+          <label class="modal-form-label">
+            <span class="modal-form-label-description">Name</span>
+            <span class="modal-form-input-wrapper">
+              <input
+                type="text"
+                name="user_name"
+                class="modal-form-input"
+                required
+                minlength="4"
+              />
+              <svg class="modal-form-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="modal-form-label">
+            <span class="modal-form-label-description">Phone</span>
+            <span class="modal-form-input-wrapper">
+              <input
+                type="tel"
+                name="user_tel"
+                class="modal-form-input"
+                required
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="xxx-xxx-xx-xx"
+              />
+              <svg class="modal-form-icon" width="13" height="13">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="modal-form-label">
+            <span class="modal-form-label-description">Email</span>
+            <span class="modal-form-input-wrapper">
+              <input type="email" name="user-email" class="modal-form-input" />
+              <svg class="modal-form-icon" width="15" height="12">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </span>
+          </label>
+          <label class="modal-form-label-textarea">
+            <span class="modal-form-label-description">Comment</span>
+            <textarea
+              class="modal-form-textarea"
+              placeholder="Text input"
+              name="user-message"
+            ></textarea>
+          </label>
+          <input
+            type="checkbox"
+            name="user-policy"
+            class="modal-form-check hidden-title"
+            id="user-policy"
+          />
+          <label for="user-policy" class="modal-form-check-description">
+            I accept the terms and conditions of the&nbsp;<a href="policy.html" target="_blank" style="color: #4d5ae5;">
+              Privacy Policy
+            </a>
+          </label>
+          <button type="submit" class="modal-form-btn-submit">Send</button>
+        </form>
       </div>
     </div>
-
     <script src="./js/modal.js"></script>
   </body>
 </html>
