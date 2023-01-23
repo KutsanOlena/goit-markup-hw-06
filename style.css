@@ -209,7 +209,7 @@ letter-spacing: 0.02em;
   justify-content: space-between;
 }
 .title1{
-  background-image: url(img/Dark-bgfon.png), url(img/people-office1fon.png);
+  background-image: url(images/Dark-bg.png), url(images/people-office\ 1.jpg);
   background-position: center;
   background-size: color;
   background-repeat: no-repeat;
